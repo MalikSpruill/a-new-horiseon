@@ -9,4 +9,4 @@ The purpose of this project is to refactor the existing code to make it more acc
 https://malikspruill.github.io/a-new-horiseon/
 
 
-<img src="./develop/assets/images/horiseon-photo.png" alt="Horiseon website" width="700px" />
+<img src="./Develop/assets/images/horiseon-photo.png" alt="Horiseon website" width="700px" />
