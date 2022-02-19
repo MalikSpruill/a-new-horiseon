@@ -1,14 +1,16 @@
+/* Universal selector for targeting all child elements in an html document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* One of the element selectors in CSS for targeting a specific element or elements that share the same tag in an html page */
 body {
     background-color: #d9dcd6;
 }
 
-/* Heading content begins here */
+/* Heading content begins here.  Heading styles the navbar to have provide additional ease of access for links. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +18,7 @@ header {
     color: #ffffff;
 }
 
+/* Descendant selector that targets all h1 descendants of the header element in this case */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -48,11 +51,13 @@ header nav ul li a {
 }
 /* Heading content ends here */
 
+/* Grouping selector to support multiple combination elements, including class selectors, id selectors,
+and more. */ 
 .content p, .benefits p, footer p {
     font-size: 16px;
 }
 
-/* Hero/jumbotron begins here */
+/* Hero/jumbotron begins here, which is being used to contain the background image shown on the website.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -63,6 +68,7 @@ header nav ul li a {
 }
 /* Hero/jumbotron ends here */
 
+/* Class selector that allows multiple elements of a shared class to have defined styling */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,7 +79,7 @@ header nav ul li a {
     margin-left: 25px;
 }
 
-/* content section begins */
+/* content section begins to house the content cards that list different opportunities Horiseon offers to their customers. */
 .content {
     width: 75%;
     display: inline-block;
@@ -135,7 +141,7 @@ header nav ul li a {
 }
 /* Content section ends here */
 
-/* Benefits section begins here */
+/* Benefits section begins here, which includes benefits customers get when they use our service. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -196,7 +202,7 @@ header nav ul li a {
 }
 /* Benefits section ends here */
 
-/* Footer section begins here */
+/* Footer section begins here to include copyright and Horiseon info. */
 footer {
     padding: 30px;
     clear: both;
